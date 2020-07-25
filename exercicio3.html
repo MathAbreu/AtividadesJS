@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <script>
+            function temHabilidade(skills){
+               var resultado = skills.indexOf('JavaScript');
+               if(resultado >= 0){
+                   return true;
+
+               }
+               else{
+                   return false;
+               }
+            }
+            var skills = ['JavaScript', 'ReactJs', 'React Native'];
+            console.log(temHabilidade(skills));
+        </script>
+    </body>
+</html>
